@@ -4,7 +4,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 blockquote, th, td { margin:0 ; padding:0; }
 table { border-collapse:collapse ; border-spacing:0 ; }
 fieldset, img { border:0 ; }
-address, caption, cite, code, dfn, em, strong, th ,var, optgroup { font-style:inherit ; font-weight:inherit ; }
+address, caption, cite, code, dfn, em, strong, th ,var, optgroup { font-style:inherit ;  }
 del, ins { text-decoration:none ; }
 li { list-style:none ; }
 caption, th { text-align:left ; }
@@ -55,7 +55,7 @@ h2 {font-size:20px; line-height:28px; font-weight:bold ;}
 #search {
 	background:#fff url("../images/search.jpg") no-repeat 2px center; 
 	border:1px solid #336633;
-	width:150px; font-size:9px  line-height:24px; height:20px; 
+	width:150px; font-size:9px ; line-height:24px; height:20px; 
 	padding-left:22px; vertical-align:middle; 
 }
 
@@ -180,7 +180,7 @@ h2 {font-size:20px; line-height:28px; font-weight:bold ;}
 #intro #logo_image{
 	float:right;
 	margin-top:20px;
-	margin-botoom:5px;
+	margin-bottom:5px;
 	margin-left:20px;
 	width:150px;
 	height:150px;
@@ -232,7 +232,7 @@ h2 {font-size:20px; line-height:28px; font-weight:bold ;}
 	text-align:center;
 }
 #notice td.title{
-	text-align:normal;
+	
 	padding-left:10px;
 }
 #notice td.number, td.writer, td.date, td.clicked{
